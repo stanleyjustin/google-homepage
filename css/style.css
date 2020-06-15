@@ -1,56 +1,143 @@
+/*MAIN ELEMENTS*/
 body {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+/*NAVBAR*/
+.navbar-container {
+    padding: 0;
+    margin: 0;
+}
+.navbar-container li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+.navbar {
+    text-align: left;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.navbar a {
+    color: rgb(59, 59, 59);
+}
+
+/*MAIN CONTENT CONTAINER*/
 .content-container {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     background-color: #ffffff;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 160px;
     height: 500px
 }
 /*LOGO*/
 .google-logo {
     margin-bottom: 30px;
 }
-/*BUTTONS*/
-.buttons {
-    margin-bottom: 30px;
-}
+
 /*SEARCH BAR*/
 .search-bar {
     margin-bottom: 30px;
     width: 500px;
 }
-/*NAVBAR*/
-.navbar-container li {
-    list-style: none;
-    display: inline;
+
+/*BUTTONS*/
+.buttons {
+    margin-bottom: 30px;
 }
+
+button {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+button:hover {
+    border: 1px solid rgb(114, 111, 111);
+}
+
+.alternate-language {
+    font-size: 13px;
+}
+
 /*FOOTER*/
 .footer-container {
     width: 100%;
-}
-
-.footer-container li {
     background-color: #e7e5e5;
-    list-style: none;
-    width: 100%;
-    display: inline;
+    float: left;
+    margin-right: 25px;
 }
 
 .country {
-    background-color: #e7e5e5;
     border-bottom: 1px solid rgb(223, 221, 221);
-    border-top: 1px solid rgb(223, 221, 221);
-    height: 40px;
+    height: 20px;
     text-align: left;
-    padding-left: 35px;
-    padding-top: 15px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer-nav {
-    width: 100%;
+.footer-container li {
+    list-style-type: none;
+    display: inline;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20px    
 }
 
+.footer-container a {
+    color: #5f6368;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px; 
+}
+
+#footer {
+    bottom: 0;
+}

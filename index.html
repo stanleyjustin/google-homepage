@@ -7,24 +7,23 @@
     </head>
     <body>
 <!--NAVBAR-->
-        <div class="navbar-container">
-            <ul>
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>#</li>
-                <li>About</li>
-                <li>Portrait</li>
+        <div id="header" class="navbar-container">
+            <ul class="navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li style="float:right"><a href="#">Portrait</a></li>
+                <li style="float:right"><a href="#">#</a></li>
+                <li style="float:right"><a href="#">Images</a></li>
+                <li style="float:right"><a href="#">Gmail</a></li>
             </ul>
         </div>
 <!--LOGO-->
-        <div class="content-container">
-            <div >
+        <div id="body" class="content-container">
+            <div>
                 <img class="google-logo" src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="google-logo">
             </div>
 <!--SEARCH BAR & BUTTONS-->
-            <div>
+            <div class="form">
                 <form method="GET action="https://google.com">
                     <input class="search-bar" type="text" placeholder="Search..">
                 </form>
@@ -34,21 +33,21 @@
                 <button>I'm Feeling Lucky</button>
             </div>
             <div>
-                <p class="alternate-language">Google offered in: Fran&#231;ais</p>
+                <p class="alternate-language">Google offered in: <a href="#">Fran&#231;ais</a></p>
             </div>
         </div>    
 <!--FOOTER-->
-        <div class="footer-container">
+        <footer id="footer" class="footer-container">
             <p class="country">Canada</p>
             <ul class="footer-nav">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>   
+                <li style="float:right"><a href="#">Privacy</a></li>
+                <li style="float:right"><a href="#">Terms</a></li>
+                <li style="float:right"><a href="#">Settings</a></li>
             </ul>
-        </div>
+        </footer>
     </body>
 </html>
 
